@@ -3,3 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+a {
+    text-decoration: none;
+}
+
+nav ul li a {
+    color: white;
+}
+
+header {
+    background-color: #FF6900;
+    height: 50px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    color: white;
+    gap: 10px;
+}
+header div img {
+    height: 30px;
+    margin-top: 10px;
+}
+
