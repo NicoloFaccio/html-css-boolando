@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: 1px solid red; */
 }
 
 a {
@@ -36,3 +37,44 @@ header div img {
     margin-top: 10px;
 }
 
+main {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.images {
+    position: relative;
+    display: inline; 
+}
+
+.items-heart {
+    position: absolute;
+    right: 0;
+    top: 60px;
+    padding: 20px;
+    background-color: white;
+    font-size: 30px;
+}
+
+.items-number {
+    position: absolute;
+    left: 0;
+    bottom: 70px;
+    background-color: red;
+    padding: 5px; 
+    color: white;
+}
+
+.items-word {
+    position: absolute;
+    left: 50px;
+    bottom: 70px;
+    background-color: #008000;
+    padding: 5px; 
+    color: white;
+}
