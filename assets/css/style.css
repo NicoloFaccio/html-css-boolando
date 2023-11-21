@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
 }
 
 html {
@@ -20,6 +19,8 @@ nav ul li a {
 header {
     background-color: #FF6900;
     height: 50px;
+    position: fixed;
+    width: 100%;
 }
 
 .container {
@@ -44,6 +45,7 @@ header div img {
 main {
     margin: 0 auto;
     width: 80%;
+    padding-top: 70px;
 }
 
 .cards {
@@ -54,6 +56,7 @@ main {
 .images {
     position: relative;
     display: inline; 
+    z-index: -1;
 }
 
 .model {
@@ -113,4 +116,13 @@ footer {
     margin-top: 30px;
     color: white;
     padding-block: 50px;
+}
+
+.information {
+    line-height: 30px;
+}
+
+
+footer div ul li a {
+    color: white;
 }
